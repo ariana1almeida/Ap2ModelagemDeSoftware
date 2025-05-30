@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "53472c87-3b05-44ce-9de4-8b050d034c11",
+		"name": "Ap2Teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28075605"
+	},
+	"item": [
+		{
+			"name": "Ver Tutor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5165/api/tutor/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"tutor",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Tutor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Aaaa\",\r\n  \"email\": \"ariana122@hotmail.com\",\r\n  \"phone\": \"51111555111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5165/api/Tutor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"Tutor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar tutor",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Diogo\",\r\n  \"email\": \"diogo@hotmail.com\",\r\n  \"phone\": \"51111555111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5165/api/tutor/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"tutor",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar tutor",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"petId\": 1,\r\n  \"name\": \"Miri\",\r\n  \"especies\": \"Gato\",\r\n  \"breed\": \"Siamês\",\r\n  \"tutorId\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5165/api/tutor/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"tutor",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver pet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5165/api/pet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar pet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"petId\": 2,\r\n  \"name\": \"Leu\",\r\n  \"especies\": \"Cachorro\",\r\n  \"breed\": \"SDR\",\r\n  \"tutorId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5165/api/pet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar pet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"petId\": 2,\r\n  \"name\": \"Léo\",\r\n  \"especies\": \"Cachorro\",\r\n  \"breed\": \"SDR\",\r\n  \"tutorId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5165/api/pet/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"pet",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar pet",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5165/api/pet/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5165",
+					"path": [
+						"api",
+						"pet",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
